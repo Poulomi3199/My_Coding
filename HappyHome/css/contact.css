@@ -1,0 +1,119 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/cover3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	margin: auto;
+    width: 80%;
+	height: auto;
+	padding: 10px;
+}
+.content{
+	font-family: Cursive;
+	font-size: 18px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.9);
+}
+.contact{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.contactinfo{
+	padding-top: -5px;
+	padding-left: 20px;
+	font-family: cursive;
+	color: #fff;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+.contactinfo .box{
+	position: relative;
+	padding: 0;
+	display: flex;
+}
+.contactinfo .box .icon{
+	margin-top: 20px;
+	min-width: 40px;
+	height: 40px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size:22px;
+}
+.contactinfo .box .text{
+	margin-left: 20px;
+}
+.contactinfo .box .text h3{
+	font-weight: bold;
+	color: #8BAAAB;
+}
+.contactform{
+	margin-right: 20px;
+	width: 60%;
+	font-family: Arial;
+	font-size: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 22px;
+	padding-bottom: 18px;
+	background: #fff;
+}
+.contactform .inputbox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 15px;
+	font-family: monospace;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+.contactform .inputbox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	font-family: monospace;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.4s;
+	color: #666;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+	color: #A52752;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 14px;
+	transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]{
+	width: absolute;
+	position: center;
+	background: #9C4C4C;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}

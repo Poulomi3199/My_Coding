@@ -1,0 +1,62 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/cover4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.body{
+	display: flex;
+}
+.row{
+	padding: 30px;
+	padding-left: 75px;
+	font-family: Cursive;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.9);
+}
+.col{
+	width: 40%;
+	margin: 25px;
+	font-weight: bold;
+	color: #fff;
+}
+.card{
+	width: 210px;
+	height: 200px;
+	font-size: 20px;
+	display: inline-block;
+	border: 5px solid #B3D5CE;
+	border-radious: 20px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 20px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.4s;
+}
+.card a{
+	font-weight: bold;
+	font-family: cursive;
+	color: #fff;
+}
+.card1{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/arc.png);
+}
+.card2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/int.png);
+}
+.card3{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/civ.png);
+}
+.card4{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/lan.png);
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+
+
+
